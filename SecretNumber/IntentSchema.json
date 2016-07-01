@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "intent": "MySecretNumber",
+      "slots": [
+        {
+          "name": "Number",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "WhatsMySecretNumber"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
