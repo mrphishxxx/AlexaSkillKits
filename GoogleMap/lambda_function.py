@@ -8,7 +8,6 @@ import datetime
 
 # Populate with your Alexa skill's application ID to prevent someone else
 # from configuring a skill that sends requests to this function.
-APP_ID = ""
 
 # Put your Google Maps API key here
 GMAPS_API_KEY = ""
