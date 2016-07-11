@@ -1,3 +1,5 @@
+// to test, node use_rectangle
+
 var rect = require('./rectangle');
 
 function solveRect(l,b) {
