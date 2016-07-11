@@ -1,0 +1,3 @@
+GoogleSearch Google Search {about|Term}
+GoogleSearch Google Search {on|Term}
+GoogleSearch Google Search {Term|for me}
