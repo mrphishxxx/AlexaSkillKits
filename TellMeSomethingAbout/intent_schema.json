@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "intent": "TellMeSomething",
+      "slots": [
+        {
+          "name": "Thing",
+          "type": "AMAZON.LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+TellMeSomething Tell me something {about|thing}
+TellMeSomething Tell me {about|thing}
+TellMeSomething What {is|thing}
+TellMeSomething I want to know {about|thing}
