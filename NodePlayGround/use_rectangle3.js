@@ -3,7 +3,7 @@ var argv = require('yargs')
     .demand(['l','b'])
     .argv;
 
-var rect = require('./rectangle-2');
+var rect = require('./rectangle2');
 
 function solveRect(l,b) {
     console.log("Solving for rectangle with l = "
