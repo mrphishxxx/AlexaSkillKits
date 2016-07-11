@@ -135,7 +135,10 @@ def error_response(intent, session):
     session_attributes = session.get('attributes', {})
     should_end_session = False
     speech_output = "Sorry, I didn't understand what you said. " \
-                    "Please try again."
+                    "Please try again." \
+                    "For example, you can say, " \
+                    "Tell me something about obama. "
+
     reprompt_text = speech_output
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
