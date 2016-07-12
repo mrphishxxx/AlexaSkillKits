@@ -8,41 +8,28 @@ import datetime
 
 # Populate with your Alexa skill's application ID to prevent someone else
 # from configuring a skill that sends requests to this function.
+#APP_ID = "amzn1.echo-sdk-ams.app.08dea82f-865d-4a35-a734-2f8125680049"
 
 # Put your Google Maps API key here
-GMAPS_API_KEY = ""
+GMAPS_API_KEY = "AIzaSyDFDsYobQ78Mw4k_E_Te1LMCMlRUXlJvtM"
 
 # Dictionary mapping names of people to their addresses.
 # Customize with your own values.
 PEOPLE_AND_PLACES = {
-    "Mark": {
+    "Ren": {
         "work": {
-            "address": "1 Hacker Way, Menlo Park, CA 94025",
+            "address": "900 salem street, smith field, RI 02917",
             "start": "home"
         },
         "home": {
-            "address": "3660 21st St, San Francisco, CA 94114",
+            "address": "414 river ave, providence, RI 02908",
             "start": "work"
-        }
-    },
-    "Tim": {
-        "work": {
-            "address": "1 Infinite Loop, Cupertino, CA 95014",
-            "start": "home"
-        },
-        "home": {
-            "address": "Webster St, Palo Alto, CA ",
-            "start": "work"
-        },
-        "cafe": {
-             "address": "10591 N De Anza Blvd, Cupertino, CA 95014",
-             "start": "work"
         }
     }
 }
 
 # Default if skill is launched without specifying a person
-DEFAULT_PERSON = "Mark"
+DEFAULT_PERSON = "Ren"
 
 # ------------------------------------------------------------------------------
 
@@ -50,11 +37,11 @@ def lambda_handler(event, context):
     """ Route the incoming request based on type (LaunchRequest, IntentRequest,
     etc.) The JSON body of the request is provided in the event parameter.
     """
-    print("event.session.application.applicationId=" +
-          event['session']['application']['applicationId'])
+    #print("event.session.application.applicationId=" +
+    #      event['session']['application']['applicationId'])
 
-    if APP_ID and event['session']['application']['applicationId'] != APP_ID:
-        raise ValueError("Invalid Application ID")
+    #if APP_ID and event['session']['application']['applicationId'] != APP_ID:
+    #    raise ValueError("Invalid Application ID")
 
     if event['session']['new']:
         on_session_started({'requestId': event['request']['requestId']},

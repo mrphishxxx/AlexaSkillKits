@@ -1,0 +1,27 @@
+{
+  "session": {
+    "new": false,
+    "sessionId": "session1234",
+    "attributes": {},
+    "user": {
+      "userId": null
+    },
+    "application": {
+      "applicationId": "amzn1.echo-sdk-ams.app.[unique-value-here]"
+    }
+  },
+  "version": "1.0",
+  "request": {
+    "intent": {
+      "slots": {
+        "Term": {
+          "name": "Term",
+          "value": "check email 5 minutes later"
+        }
+      },
+      "name": "SMS"
+    },
+    "type": "IntentRequest",
+    "requestId": "request5678"
+  }
+}

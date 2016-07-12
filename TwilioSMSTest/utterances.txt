@@ -1,0 +1,6 @@
+SMS remind me {to sleep|Term}
+SMS remind me {to buy food|Term}
+SMS remind me {to pay bill|Term}
+SMS remind me {to have fun tonight|Term}
+SMS remind me {to buy games that is on sale on steam|Term}
+SMS remind me {to buy some fruits and bring them on my way to see grandpa|Term}
