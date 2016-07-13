@@ -6,8 +6,8 @@ from twilio.rest import TwilioRestClient
 
 account_sid = ""
 auth_token = ""
-from_num = "+16173935287"
-to_num = "+16178935778"
+from_num = ""
+to_num = ""
 # create a client
 client = TwilioRestClient(account_sid, auth_token)
 
